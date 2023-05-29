@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 int s21_calc_complements(matrix_t *A,
-                         matrix_t *result)  // не понимаю, в чем ошибка
+                         matrix_t *result) 
 {
   int ret = 0;
   if (WrongMatrix(A) == 0) {
